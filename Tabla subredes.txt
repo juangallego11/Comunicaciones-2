@@ -1,0 +1,10 @@
+R1 G0/0/ LAN - 2001:db8:acad:00c8::0/64
+	       2001:db8:acad:00c8::/64	
+	
+LAN G0/1 del R1 - 2001:db8:acad:00c9::/64
+
+LAN G0/0 del R2 - 2001:db8:acad:00ca::/64
+
+LAN G0/1 del R2 - 2001:db8:acad:00cb::/64
+
+R1 to R2 link network - 2001:db8:acad:00cc::/64
